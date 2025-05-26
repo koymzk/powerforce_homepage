@@ -10,7 +10,7 @@ export default function Header() {
       <div className="flex items-center gap-2 sm:gap-3">
         <Link href="/" className="flex items-center gap-2 sm:gap-3">
           <Image
-            src="/PowerForce.png"
+            src="/powerforce_homepage/PowerForce.png"
             alt="PowerForce logo"
             width={120}
             height={32}
