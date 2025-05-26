@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Header() {
@@ -9,8 +8,8 @@ export default function Header() {
     <header className="w-full flex items-center justify-between px-4 sm:px-6 py-4 sm:py-7 shadow-sm bg-white fixed top-0 left-0 z-50">
       <div className="flex items-center gap-2 sm:gap-3">
         <Link href="/" className="flex items-center gap-2 sm:gap-3">
-          <Image
-            src="/PowerForce.png"
+          <img
+            src="/powerforce_homepage/PowerForce.png"
             alt="PowerForce logo"
             width={120}
             height={32}
