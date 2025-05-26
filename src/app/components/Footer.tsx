@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="w-full bg-blue-900 text-white pt-24 pb-24 px-24 mt-24">
@@ -16,10 +18,10 @@ export default function Footer() {
         <div className="flex-1 min-w-[180px]">
           <h3 className="text-xl font-bold mb-4 text-blue-200">サイトマップ</h3>
           <ul className="text-sm text-blue-100 space-y-2">
-            <li><a href="/" className="hover:underline">ホーム</a></li>
-            <li><a href="/about" className="hover:underline">会社概要</a></li>
-            <li><a href="/services" className="hover:underline">サービス</a></li>
-            <li><a href="/contact" className="hover:underline">お問い合わせ</a></li>
+            <li><Link href="/" className="hover:underline">ホーム</Link></li>
+            <li><Link href="/about" className="hover:underline">会社概要</Link></li>
+            <li><Link href="/services" className="hover:underline">サービス</Link></li>
+            <li><Link href="/contact" className="hover:underline">お問い合わせ</Link></li>
           </ul>
         </div>
         {/* ロゴ＆コピーライト */}
