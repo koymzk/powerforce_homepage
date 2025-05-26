@@ -49,8 +49,8 @@ export default function Contact() {
           </div>
         ) : (
           <>
-            <div className="mb-8 text-gray-700 text-lg">
-              以下のお問い合わせフォームよりお気軽にお問い合わせください。全てのお問い合わせへの回答が困難な場合もございます。予めご了承ください。
+            <div className="mb-8 text-gray-700 text-lg max-w-prose text-pretty leading-relaxed text-balance">
+              以下のお問い合わせフォームよりお気軽にお問い合わせください。<br />全てのお問い合わせへの回答が困難な場合もございます。予めご了承ください。
             </div>
             {error && (
               <div className="bg-red-100 text-red-700 rounded p-4 mb-4 text-center text-base shadow">

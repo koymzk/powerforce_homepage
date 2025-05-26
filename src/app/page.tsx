@@ -21,8 +21,9 @@ export default function Home() {
         <h1 className="text-4xl sm:text-5xl font-extrabold mb-6 text-left text-white drop-shadow-md">
           <span className="text-blue-700">未来を動かす力</span>を、<br className="hidden sm:block" />あなたのビジネスに。
         </h1>
-        <p className="text-lg sm:text-xl text-white mb-2 text-left max-w-2xl drop-shadow">
-          PowerForceは、テクノロジーで企業の成長を支援します。
+        <p className="text-lg sm:text-xl text-white mb-2 text-left max-w-2xl drop-shadow text-balance leading-relaxed">
+          PowerForceは、<br className="hidden sm:inline" />
+          テクノロジーで企業の成長を支援します。
         </p>
         </div>
         {/* 右側: 空のコンテナ（今後画像などを配置可能） */}
@@ -40,8 +41,9 @@ export default function Home() {
           </div>
           {/* 右側: テキスト・画像など */}
           <div className="w-full md:w-1/2 flex flex-col items-start justify-center">
-            <p className="mb-2">
-              慶應義塾大学をはじめとする各大学に所属する、20代前半の若いメンバーが中心となり、時代の最先端を捉える感性と最新技術を駆使して、企業の成長に新たなインパクトをもたらします。
+            <p className="mb-2 max-w-prose text-pretty leading-relaxed text-balance">
+              慶應義塾大学をはじめとする各大学に所属する、20代前半の若いメンバーが中心となり、
+              時代の最先端を捉える感性と最新技術を駆使して、企業の成長に新たなインパクトをもたらします。
             </p>
             <Link href="/about" className="underline font-semibold text-white hover:text-blue-200 transition">会社概要を見る</Link>
           </div>
@@ -55,7 +57,8 @@ export default function Home() {
           <div className="w-full md:w-1/3 flex flex-col items-start justify-center px-0 md:px-4 mb-8 md:mb-0">
             <h2 className="text-6xl font-bold mb-2 text-blue-700">Service</h2>
             <div className="text-3xl font-semibold mb-4 text-blue-700">サービス</div>
-            <p className="text-lg text-gray-700">PowerForce LLCのコアは、AI技術の開発面・実務面双方での活用です。<br />
+            <p className="text-lg text-gray-700 mb-4 max-w-prose text-pretty leading-relaxed text-balance">
+              PowerForce LLCのコアは、AI技術の開発面・実務面双方での活用です。<br />
               その成果として、<span className="font-bold text-blue-700">業務効率化支援（DX）</span>と
               <span className="font-bold text-blue-700">BPO事業</span>の2軸で事業を展開しています。
             </p>

@@ -13,12 +13,16 @@ export default function About() {
           <div className="rounded-xl shadow p-8 flex flex-col items-start">
             <h3 className="text-2xl font-bold text-blue-700 mb-2 text-left">Vision</h3>
             <h2 className="mb-0 text-xl text-gray-700 text-left">テクノロジーと情熱で、未来を動かす力を社会に届ける。</h2>
-            <p className="text-lg text-gray-600 mt-2">私たちは、テクノロジーと情熱がこの激動の時代の原動力になると信じています。</p>
+            <p className="text-lg text-gray-600 mt-2 max-w-prose text-pretty leading-relaxed text-balance">
+              私たちは、テクノロジーと情熱がこの激動の時代の原動力になると信じています。
+            </p>
           </div>
           <div className="rounded-xl shadow p-8 flex flex-col items-start">
             <h3 className="text-2xl font-bold text-blue-700 mb-2 text-left">Mission</h3>
             <h2 className="mb-0 text-xl text-gray-700 text-left">お客様の成長と変革をITの力で支援し、価値あるソリューションを提供する。</h2>
-            <p className="text-lg text-gray-600 mt-2">私たちは、ITの力でお客様のビジネスを支え、成長と変革を実現します。</p>
+            <p className="text-lg text-gray-600 mt-2 max-w-prose text-pretty leading-relaxed text-balance">
+              私たちは、ITの力でお客様のビジネスを支え、成長と変革を実現します。
+            </p>
           </div>
           <div className="rounded-xl shadow p-8 flex flex-col items-start">
             <h3 className="text-2xl font-bold text-blue-700 mb-2 text-left">Value</h3>
@@ -26,7 +30,9 @@ export default function About() {
             <h2 className="mb-4 text-xl text-gray-700 text-left">挑戦と成長</h2>
             <h2 className="mb-4 text-xl text-gray-700 text-left">テクノロジーへの情熱</h2>
             <h2 className="mb-0 text-xl text-gray-700 text-left">社会への貢献</h2>
-            <p className="text-lg text-gray-600 mt-2">私たちは、誠実なパートナーシップを築き、挑戦を恐れず、テクノロジーへの情熱を持って社会に貢献します。</p>
+            <p className="text-lg text-gray-600 mt-2 max-w-prose text-pretty leading-relaxed text-balance">
+              私たちは、誠実なパートナーシップを築き、挑戦を恐れず、テクノロジーへの情熱を持って社会に貢献します。
+            </p>
           </div>
         </div>
         <section className="w-full bg-white px-4 flex flex-col items-center">

@@ -6,17 +6,22 @@ export default function Services() {
         <div className="w-full md:w-1/3 flex flex-col items-start justify-center px-0 md:px-4 mb-8 md:mb-0">
           <h2 className="text-6xl font-bold mb-2 text-blue-700">Service</h2>
           <div className="text-3xl font-semibold mb-4 text-blue-700">サービス</div>
-          <p className="text-lg text-gray-700 mb-4">PowerForce LLCのコアは、AI技術の開発面・実務面双方での活用です。<br />
+          <p className="text-lg text-gray-700 mb-4 max-w-prose text-pretty leading-relaxed text-balance">
+            PowerForce LLCのコアは、AI技術の開発面・実務面双方での活用です。<br />
             その成果として、<span className="font-bold text-blue-700">業務効率化支援（DX）</span>と
             <span className="font-bold text-blue-700">BPO事業</span>の2軸で事業を展開しています。
           </p>
-          <p className="text-base text-gray-600 mb-2">私たちは、最新のAI技術を積極的に取り入れ、クライアントの課題解決や新たな価値創出に貢献しています。<br />
-            企画・設計から運用まで一貫してサポートし、柔軟な体制で多様なニーズに対応します。</p>
+          <p className="text-base text-gray-600 mb-2 max-w-prose text-pretty leading-relaxed text-balance">
+            私たちは、最新のAI技術を積極的に取り入れ、クライアントの課題解決や新たな価値創出に貢献しています。<br />
+            企画・設計から運用まで一貫してサポートし、柔軟な体制で多様なニーズに対応します。
+          </p>
         </div>
         {/* 中央: DX支援 */}
         <div className="w-full md:w-1/3 flex flex-col items-start justify-center bg-white rounded-xl shadow p-8 border border-blue-100">
           <h3 className="text-2xl font-bold mb-2 text-blue-700">AI・DX支援</h3>
-          <p className="text-lg mb-2">AIを活用した業務プロセスの自動化・効率化、データ活用による意思決定支援など、企業のデジタル変革を推進します。</p>
+          <p className="text-lg mb-2 max-w-prose text-pretty leading-relaxed text-balance">
+            AIを活用した業務プロセスの自動化・効率化、データ活用による意思決定支援など、企業のデジタル変革を推進します。
+          </p>
           <ul className="list-disc pl-5 text-base text-gray-700 mb-4">
             <li>業務自動化・効率化（RPA/AI-OCR/チャットボット等）</li>
             <li>データ分析・活用（BIツール/ダッシュボード構築）</li>
@@ -29,7 +34,9 @@ export default function Services() {
         {/* 右: BPO事業 */}
         <div className="w-full md:w-1/3 flex flex-col items-start justify-center bg-blue-100 rounded-xl shadow p-8 border border-blue-200">
           <h3 className="text-2xl font-bold mb-2 text-blue-700">BPO事業</h3>
-          <p className="text-lg mb-2">AIと人の力を組み合わせた業務代行・アウトソーシングサービスで、お客様の業務負担を軽減します。</p>
+          <p className="text-lg mb-2 max-w-prose text-pretty leading-relaxed text-balance">
+            AIと人の力を組み合わせた業務代行・アウトソーシングサービスで、お客様の業務負担を軽減します。
+          </p>
           <ul className="list-disc pl-5 text-base text-gray-700 mb-4">
             <li>バックオフィス業務代行（経理・人事・総務など）</li>
             <li>営業代行・リード獲得支援</li>
