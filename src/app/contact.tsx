@@ -35,9 +35,9 @@ export default function Contact() {
   }
 
   return (
-    <div className="w-full text-[1.2em]">
+    <div className="w-full text-[0.8em] sm:text-[1.2em] py-2 sm:py-0">
       <section className="w-full bg-blue-50 py-32 px-0">
-        <div className="w-full text-white rounded-none py-24 px-8 max-w-6xl mx-auto">
+        <div className="w-full text-white rounded-none py-24 px-8 sm:px-8 max-w-6xl mx-auto">
           <h2 className="text-6xl font-bold mb-2 text-left text-blue-600">Contact</h2>
           <div className="text-3xl font-semibold mb-4 text-left text-blue-600">お問い合わせ</div>
         </div>
@@ -49,7 +49,7 @@ export default function Contact() {
           </div>
         ) : (
           <>
-            <div className="mb-8 text-gray-700 text-lg max-w-prose text-pretty leading-relaxed text-balance">
+            <div className="mb-8 px-4 sm:px-0 text-gray-700 text-lg max-w-prose text-pretty leading-relaxed text-balance">
               以下のお問い合わせフォームよりお気軽にお問い合わせください。<br />全てのお問い合わせへの回答が困難な場合もございます。予めご了承ください。
             </div>
             {error && (

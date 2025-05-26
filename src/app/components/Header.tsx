@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Header() {
   const [open, setOpen] = useState(false);
   return (
-    <header className="w-full flex items-center justify-between px-2 sm:px-6 py-4 sm:py-7 shadow-sm bg-white fixed top-0 left-0 z-50">
+    <header className="w-full flex items-center justify-between px-4 sm:px-6 py-4 sm:py-7 shadow-sm bg-white fixed top-0 left-0 z-50">
       <div className="flex items-center gap-2 sm:gap-3">
         <Link href="/" className="flex items-center gap-2 sm:gap-3">
           <Image

@@ -3,10 +3,10 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="w-full flex flex-col items-center justify-center gap-48 text-[1.2em]">
+    <div className="w-full flex flex-col items-center justify-center gap-48 text-[0.8em] sm:text-[1.2em] py-2 sm:py-0">
       {/* キャッチコピー */}
       <section
-      className="w-full flex flex-col items-center justify-center relative overflow-hidden px-4 py-48"
+      className="w-full flex flex-col items-center justify-center relative overflow-hidden px-0 py-24 sm:py-48"
       style={{
         backgroundImage: 'url(/background2.png)',
         backgroundSize: 'cover',
@@ -15,9 +15,9 @@ export default function Home() {
         minHeight: '400px',
       }}
       >
-      <div className="max-w-6xl w-full flex flex-col md:flex-row items-center justify-center h-full mx-auto">
+      <div className="max-w-6xl w-full flex flex-col md:flex-row items-center justify-center h-full mx-auto gap-8 md:gap-0 px-4 sm:px-0">
         {/* 左側: キャッチコピー */}
-        <div className="w-full md:w-1/2 flex flex-col items-start justify-center h-full md:h-80 px-6 py-8 md:px-12 md:py-12">
+        <div className="w-full md:w-1/2 flex flex-col items-start justify-center h-full md:h-80 px-4 py-8 md:px-12 md:py-12">
         <h1 className="text-4xl sm:text-5xl font-extrabold mb-6 text-left text-white drop-shadow-md">
           <span className="text-blue-700">未来を動かす力</span>を、<br className="hidden sm:block" />あなたのビジネスに。
         </h1>
@@ -33,7 +33,7 @@ export default function Home() {
 
       {/* About US 概要 */}
       <section className="w-full text-left py-40 bg-blue-600 text-white rounded-none">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start">
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start px-6 sm:px-0">
           {/* 左側: 見出し */}
           <div className="w-full md:w-1/2 flex flex-col items-start justify-center px-0 md:px-8 mb-6 md:mb-0">
         <h2 className="text-6xl font-bold mb-2">About Us</h2>
@@ -52,7 +52,7 @@ export default function Home() {
 
       {/* サービス概要 */}
       <section className="w-full py-40 bg-blue-50 rounded-none">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-8">
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-8 px-6 sm:px-0">
           {/* 左: 見出し＋コア説明 */}
           <div className="w-full md:w-1/3 flex flex-col items-start justify-center px-0 md:px-4 mb-8 md:mb-0">
             <h2 className="text-6xl font-bold mb-2 text-blue-700">Service</h2>
@@ -84,7 +84,7 @@ export default function Home() {
             </ul>
           </div>
         </div>
-        <div className="max-w-6xl mx-auto mt-8 text-right">
+        <div className="max-w-6xl mx-auto mt-8 text-right px-6 sm:px-0">
           <Link href="/services" className="text-blue-600 underline font-semibold">サービス詳細を見る</Link>
         </div>
       </section>
