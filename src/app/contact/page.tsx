@@ -1,9 +1,3 @@
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Contact｜PowerForce LLC",
-};
-
 "use client";
 
 import { useState } from "react";
