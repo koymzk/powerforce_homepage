@@ -18,7 +18,7 @@ export default function Home() {
         {/* 左側: キャッチコピー */}
         <div className="w-full md:w-1/2 flex flex-col items-start justify-center h-full md:h-80 px-4 py-8 md:px-12 md:py-12">
         <h1 className="text-4xl sm:text-5xl font-extrabold mb-6 text-left text-white drop-shadow-md">
-          <span className="text-blue-700">未来を動かす力</span>を、<br className="hidden sm:block" />あなたのビジネスに。
+          <span className="text-blue-700">未来を動かす力</span>を、<br/>あなたのビジネスに。
         </h1>
         <p className="text-lg sm:text-xl text-white mb-2 text-left max-w-2xl drop-shadow text-balance leading-relaxed">
           PowerForceは、<br className="hidden sm:inline" />
