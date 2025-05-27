@@ -7,7 +7,7 @@ export default function Home() {
       <section
       className="w-full flex flex-col items-center justify-center relative overflow-hidden px-0 py-24 sm:py-48"
       style={{
-        backgroundImage: 'url(/powerforce_homepage/background2.png)',
+        backgroundImage: 'url(/background2.png)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
