@@ -15,7 +15,7 @@ export default function Services() {
             <div className="text-3xl font-semibold mb-4 text-blue-700">サービス</div>
             <p className="text-lg text-gray-700 mb-4 max-w-prose text-pretty leading-relaxed text-balance">
               PowerForce LLCのコアは、AI技術の開発面・実務面双方での活用です。<br />
-              その成果として、<span className="font-bold text-blue-700">業務効率化支援（DX）</span>と
+              その成果として、<span className="font-bold text-blue-700">AI・DX支援事業</span>と
               <span className="font-bold text-blue-700">BPO事業</span>の2軸で事業を展開しています。
             </p>
             <p className="text-base text-gray-600 mb-2 max-w-prose text-pretty leading-relaxed text-balance">
@@ -25,7 +25,7 @@ export default function Services() {
           </div>
           {/* 中央: DX支援 */}
           <div className="w-full md:w-1/3 flex flex-col items-start justify-center bg-white rounded-xl shadow p-8 border border-blue-100">
-            <h3 className="text-2xl font-bold mb-2 text-blue-700">AI・DX支援</h3>
+            <h3 className="text-2xl font-bold mb-2 text-blue-700">AI・DX支援事業</h3>
             <p className="text-lg mb-2 max-w-prose text-pretty leading-relaxed text-balance">
               AIを活用した業務プロセスの自動化・効率化、データ活用による意思決定支援など、企業のデジタル変革を推進します。
             </p>
